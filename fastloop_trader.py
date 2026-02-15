@@ -463,7 +463,7 @@ def execute_trade(api_key, market_id, side, amount):
         "market_id": market_id,
         "side": side,
         "amount": amount,
-        "venue": "polymarket",
+        "venue": "simmer",
         "source": TRADE_SOURCE,
     }, api_key=api_key)
 
